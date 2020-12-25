@@ -151,7 +151,7 @@ export function Search ({
                         return (
                             <Alert
                                 key={i}
-                                className="mt-2 pointer"
+                                className="ml-1 mt-2 pointer"
                                 variant="danger"
                                 dismissible
                                 onClick={() => {
