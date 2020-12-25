@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/test-assignment-frontend/static/css/main.aba86668.chunk.css",
-    "main.js": "/test-assignment-frontend/static/js/main.5837cd78.chunk.js",
-    "main.js.map": "/test-assignment-frontend/static/js/main.5837cd78.chunk.js.map",
+    "main.css": "/test-assignment-frontend/static/css/main.2888f328.chunk.css",
+    "main.js": "/test-assignment-frontend/static/js/main.4af5a8c3.chunk.js",
+    "main.js.map": "/test-assignment-frontend/static/js/main.4af5a8c3.chunk.js.map",
     "runtime-main.js": "/test-assignment-frontend/static/js/runtime-main.d1ab956f.js",
     "runtime-main.js.map": "/test-assignment-frontend/static/js/runtime-main.d1ab956f.js.map",
     "static/js/2.be20eb44.chunk.js": "/test-assignment-frontend/static/js/2.be20eb44.chunk.js",
@@ -10,13 +10,13 @@
     "static/js/3.b29dd2b3.chunk.js": "/test-assignment-frontend/static/js/3.b29dd2b3.chunk.js",
     "static/js/3.b29dd2b3.chunk.js.map": "/test-assignment-frontend/static/js/3.b29dd2b3.chunk.js.map",
     "index.html": "/test-assignment-frontend/index.html",
-    "static/css/main.aba86668.chunk.css.map": "/test-assignment-frontend/static/css/main.aba86668.chunk.css.map",
+    "static/css/main.2888f328.chunk.css.map": "/test-assignment-frontend/static/css/main.2888f328.chunk.css.map",
     "static/js/2.be20eb44.chunk.js.LICENSE.txt": "/test-assignment-frontend/static/js/2.be20eb44.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.d1ab956f.js",
     "static/js/2.be20eb44.chunk.js",
-    "static/css/main.aba86668.chunk.css",
-    "static/js/main.5837cd78.chunk.js"
+    "static/css/main.2888f328.chunk.css",
+    "static/js/main.4af5a8c3.chunk.js"
   ]
 }
