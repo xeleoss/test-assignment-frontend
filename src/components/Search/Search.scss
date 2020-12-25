@@ -1,0 +1,35 @@
+.search {
+  &__buttons {
+    & > * {
+      margin: 0 5px 0 5px;
+    }
+
+    &-input {
+      width: 300px;
+    }
+
+    & > button {
+      padding: 0 6px;
+      text-align: center;
+    }
+
+    &-submit {
+      background-color: #00C04B;
+      width: 88px;
+    }
+
+    &-clear {
+      background-color: #ED0041;
+    }
+
+    &-grouped {
+      background-color: #4A00FD;
+      width: 150px;
+    }
+  }
+}
+
+.alert-block {
+  position: absolute;
+  z-index: 5;
+}
