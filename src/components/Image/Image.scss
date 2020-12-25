@@ -6,14 +6,12 @@
   align-items: center;
 
   img {
-
     grid-template-columns: auto;
   }
 }
 
 .image-wrapper-grouped {
   overflow: auto;
-  max-width: 800px;
 
   img {
     height: 200px;

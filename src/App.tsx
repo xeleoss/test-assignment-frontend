@@ -12,7 +12,7 @@ export default function App() {
         <div className="m-3 app">
             <Search className="d-flex justify-content-center"/>
             {!isGrouped && <SearchResult className="mt-3"/>}
-            {isGrouped && <SearchResultGrouped className="mt-3"/>}
+            {isGrouped && <SearchResultGrouped className="w-100 mt-3 mw800" />}
         </div>
   );
 }
