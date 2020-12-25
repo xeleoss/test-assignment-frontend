@@ -28,6 +28,7 @@ export default function Image(props: Props) {
                     return (
                         <img
                             key={img.tag+img.url}
+                            height={200 / props.images.length}
                             alt={img.tag}
                             src={img.url}
                             onClick={() => setValue(img.tag)}

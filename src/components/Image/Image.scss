@@ -2,13 +2,11 @@
   width: 200px;
   height: 200px;
   overflow: hidden;
-  display: grid;
   justify-content: center;
   align-items: center;
 
   img {
-    height: inherit;
-    object-fit: contain;
+
     grid-template-columns: auto;
   }
 }
