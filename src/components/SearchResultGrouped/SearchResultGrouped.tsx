@@ -21,7 +21,7 @@ export function SearchResultGrouped (props: Props) {
 
     return (
         <div className={props.className}>
-            <div className="d-flex flex-column flex-wrap justify-content-center search-result-grouped">
+            <div className="mw-100 d-flex flex-column flex-wrap justify-content-center search-result-grouped">
                 {Object.keys(photosGrouped).map((groupedTag) => {
                     return (
                         <Image

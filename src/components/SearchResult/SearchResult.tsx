@@ -12,7 +12,7 @@ export function SearchResult (props: Props) {
     const photos = useRecoilValue(photosState);
     return (
         <div className={props.className}>
-            <div className="d-flex flex-row flex-wrap justify-content-center row-cols-3 search-result">
+            <div className="d-flex flex-row flex-wrap justify-content-center row-cols-3 w-100 search-result">
                 {photos.map((photoRandomResult) => {
                     return (
                         <Image
