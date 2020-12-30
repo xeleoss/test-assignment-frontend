@@ -39,14 +39,12 @@ export function Search ({
         };
     }, [delayCounter]);
 
-    let newErrorMessages = [...errorMessages];
     const clearErrorMessages = () => {
-        newErrorMessages = [];
-        setErrorMessages([...newErrorMessages]);
+        setErrorMessages([]);
     }
+
     const addErrorMessage = (error: string) => {
-        newErrorMessages.push(error);
-        setErrorMessages([...newErrorMessages]);
+        setErrorMessages((prev) => [...prev, error]);
     }
 
     const addPhotos = (newPhotos: Photo[], tags: string, currentPhotos: PhotoRandomResult[]) => {
@@ -147,22 +145,19 @@ export function Search ({
                     </Button>
                 </div>
                 <div className="alert-block">
-                    {errorMessages.map((error, i) => {
-                        return (
-                            <Alert
-                                key={i}
-                                className="ml-1 mt-2 pointer"
-                                variant="danger"
-                                dismissible
-                                onClick={() => {
-                                    newErrorMessages = errorMessages.filter(y => y !== error);
-                                    setErrorMessages([...newErrorMessages]);
-                                }}
-                            >
-                                {error}
-                            </Alert>
-                        )
-                    })}
+                    {errorMessages.map((error, i) => (
+                        <Alert
+                            key={i}
+                            className="ml-1 mt-2 pointer"
+                            variant="danger"
+                            dismissible
+                            onClick={
+                                () => setErrorMessages(prev => prev.filter(y => y !== error))
+                            }
+                        >
+                            {error}
+                        </Alert>
+                    ))}
                 </div>
             </div>
         </div>
